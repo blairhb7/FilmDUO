@@ -4,25 +4,25 @@ import React from 'react'
 const nav = () => {
   return (
     <>
-    <main className="  bg-[#141414] rounded-xl flex justify-center items-center flex-row-reverse mt-20 mx-20  absolute px-6 z-50">
+    <main className="  bg-[#141414] rounded-xl flex justify-center items-center flex-row-reverse md:mt-20 md:mx-20  absolute px-1 md:px-6 z-50">
         <section className=' flex flex-row  py-4 px-2 uppercase'>
             <div className="flex flex-row gap-3">
                 <Link href={'/'}> 
                     <div className="flex">
-                        <h1 id='logo' className=" hidden md:block text-[.5em] md:text-base px-1 font-medium leading-tight text-white shadow-black ">FilmDUO</h1>
+                        <h1 id='logo' className=" hidden md:block text-[.5em] md:text-base px-1 font-bold leading-tight text-white shadow-black ">FilmDUO</h1>
                     </div>
                 </Link>
-                <Link href={''}>
-                    <h2 className=" uppercase">Work</h2>
+                <Link href={'/Page-Sections/FeaturedWorkPage'}>
+                    <h2 className=" uppercase hover:border border-[#efe7d2] rounded-lg px-1 duration-300">Work</h2>
                 </Link>
                 <Link href={''}>
-                    <h2 className=" uppercase">About</h2>
+                    <h2 className=" uppercase hover:border border-[#efe7d2] rounded-lg px-1 duration-300">About</h2>
                 </Link>
                 <Link href={''}>
-                    <h2 className=" uppercase">Pricing</h2>
+                    <h2 className=" uppercase hover:border border-[#efe7d2] rounded-lg px-1 duration-300">Pricing</h2>
                 </Link>
                 <Link href={''}>
-                    <h2 className=" uppercase">Contact</h2>
+                    <h2 className=" uppercase hover:border border-[#efe7d2] rounded-lg px-1 duration-300">Contact</h2>
                 </Link>
             </div>
         </section>
