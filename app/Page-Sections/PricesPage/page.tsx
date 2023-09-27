@@ -4,7 +4,7 @@ import { PREMIERPACKAGE, LUXURYPACKAGE } from '@/app/Data/pricedata'
 import Link from 'next/link'
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
 
     const [PremierPackage, setPremierPackage] = useState<any>(PREMIERPACKAGE)
     const [LuxuryPackage, setLuxuryPackage] = useState<any>(LUXURYPACKAGE)

@@ -1,7 +1,7 @@
 import Nav from '@/app/Components/nav'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   return (
     <>
     <Nav/>
@@ -41,4 +41,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
