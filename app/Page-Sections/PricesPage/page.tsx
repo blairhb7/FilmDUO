@@ -59,7 +59,7 @@ const Page = () => {
 
                         return (
                             <>
-                            <section key={data.id} className=' flex flex flex-col  lg:flex-row  justifly-between  w-full'>
+                            <section key={data.id} className='  flex flex-col  lg:flex-row  justifly-between  w-full'>
                                 <div className="flex flex-col">
                                     <h1 className="flex text-4xl px-4 py-1 font-bold uppercase">Services</h1>
                                     <ul className=" flex flex-col text-black justifly-center overflow-hidden p-4 lg:w-[600px]">
@@ -99,4 +99,4 @@ const Page = () => {
   )
 }
 
-export default page
+export default Page
