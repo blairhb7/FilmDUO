@@ -21,7 +21,7 @@ const nav = () => {
                 <Link href={'/Page-Sections/PricesPage'}>
                     <h2 className=" uppercase hover:border border-[#efe7d2] font-thin rounded-lg px-1 duration-300">Pricing</h2>
                 </Link>
-                <Link href={''}>
+                <Link href={'/Page-Sections/ContactPage'}>
                     <h2 className=" uppercase hover:border border-[#efe7d2] font-thin rounded-lg px-1 duration-300">Contact</h2>
                 </Link>
             </div>
@@ -39,8 +39,8 @@ const nav = () => {
                     <li className=' hover:-translate-x-3 duration-500'><Link className='Link hover:underline underline-offset-8  duration-500 ' href={'/'}>Home</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Page-Sections/FeaturedWorkPage'}>Featured Project</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Page-Sections/AboutPage'}>About</Link></li>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/archive'}>Pricing</Link></li>
-                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Sections/contact'}>Contact Us</Link></li>
+                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Page-Sections/PricesPage'}>Pricing</Link></li>
+                    <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Page-Sections/ContactPage'}>Contact Us</Link></li>
                     <div className=" flex gap-3 z-50 justify-center py-1 ">
                             <Link href={`https://www.instagram.com/filmduo/`}><img className='h-10 w-10 hover:-translate-y-1 duration-200' src={"/instagram.png"} alt={"instagram"}  /></Link>
                             <Link href={`https://www.youtube.com/@filmduo3423`}><img  className='h-10 w-10 hover:-translate-y-1 duration-200' src={"/youtube.png"} alt={"youtube"}  /></Link>
