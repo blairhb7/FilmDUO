@@ -11,36 +11,36 @@ const page = () => {
           <h1 className=" absolute  z-40 text-3xl xl:text-5xl p-10  text-white flex  font-extrabold uppercase">YOUR CINEMATIC VISION, OUR CREATIVE EXPERTISE.</h1>
             <video src={'/pexels-kindel-media-7578546 (2160p).mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl scale-110  "></video>
           <div className=" bg-[#141414] flex absolute justify-center items-center gap-2 w-28 h-10  rounded-tl-lg ">
-            <img src="/instagram.png" alt="" className=" w-6 h-6" />
-            <img src="youtube.png" alt="" className=" w-6 h-6" />
+          <Link href={`https://www.instagram.com/filmduo/`}><img src="/instagram.png" alt="" className=" w-6 h-6" /></Link>
+          <Link href={`https://www.youtube.com/@filmduo3423`}><img src="youtube.png" alt="" className=" w-6 h-6" /></Link>
           </div>
           
         </section>
-        <section className=" grid grid-cols-1 gap-2">
-            <div className="  rounded-xl flex justify-end items-end ">
-            <Link href={'/'}>
-              <video src={'/pexels-kindel-media-7578541 (2160p) (1).mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover  rounded-xl opacity-60 hover:opacity-100 duration-300"></video>
+        <section className=" grid grid-cols-1 gap-2 overflow-hidden">
+            <div className="  rounded-xl flex">
+            <Link href={'/'} className=' '>
+              <video src={'/pexels-kindel-media-7578541 (2160p) (1).mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl opacity-60 hover:opacity-100 duration-300"></video>
             </Link>
-              <div className=" bg-[#141414] flex absolute justify-end items-center w-32 h-10  rounded-tl-lg ">
+              <div className=" bg-[#141414] flex absolute justify-end items-center w-32 h-10  rounded-br-xl ">
                 <h2 className="   flex text-sm uppercase px-1">Real Estate</h2>
                 <img src="/arrow.png" alt="" className=" h-5 w-5 mx-1 border border-[#efe7d2] rounded-full" />
               </div>
             </div>
-          <section className=" rounded-xl flex justify-end items-end ">
+          <section className=" rounded-xl flex ">
           <Link href={'/'}>
             <video src={'/tates cookies.mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl opacity-60 hover:opacity-100 duration-300"></video>
           </Link>
-            <div className=" bg-[#141414] flex absolute justify-end items-center w-34 h-10  rounded-tl-lg ">
+            <div className=" bg-[#141414] flex absolute justify-end items-center w-34 h-10  rounded-br-xl ">
               <h2 className="  font-light flex text-sm uppercase px-1">advertisement</h2>
               <img src="/arrow.png" alt="" className=" h-5 w-5 mx-1 border border-[#efe7d2] rounded-full" />
 
             </div>
           </section>
-          <section className=" rounded-xl flex justify-end items-end ">
+          <section className=" rounded-xl flex  ">
           <Link href={'/'}>
             <img src={'/phone.jpg'}  className="LandingVid bg-cover  rounded-xl opacity-60 hover:opacity-100 duration-300"></img>
           </Link>
-            <div className=" bg-[#141414] flex absolute justify-end items-center w-32 h-10  rounded-tl-lg ">
+            <div className=" bg-[#141414] flex absolute justify-end items-center w-32 h-10  rounded-br-xl ">
               <h2 className="  font-light flex text-sm uppercase px-1">Contact Us</h2>
               <img src="/arrow.png" alt="" className=" h-5 w-5 mx-1 border border-[#efe7d2]  rounded-full" />
             </div>
