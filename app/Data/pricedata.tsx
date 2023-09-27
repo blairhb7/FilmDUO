@@ -25,3 +25,15 @@ export const LUXURYPACKAGE = [
         price: '0-4000sq.ft - 600.00$'
     }
 ]
+
+
+export const ProductPackage = [
+    {
+        id: 3,
+        Service: 'Video - 1 to 2 Min Cinematic Video',
+        video: 'Optimized Content for Social Media platforms to showcase the product',
+        hightlightreel: 'Hightlight - Hightlight Reel video',
+        social: 'Social - Social Media story Edit',
+        price: 'Marketing Ad - 1200.00$'
+    }
+]

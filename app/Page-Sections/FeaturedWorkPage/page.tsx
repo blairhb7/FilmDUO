@@ -2,7 +2,7 @@ import Nav from '@/app/Components/nav'
 import Link from 'next/link'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   return (
     <>
     <Nav/>
@@ -24,4 +24,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
