@@ -37,3 +37,31 @@ export const ProductPackage = [
         price: 'Marketing Ad - 1200.00$'
     }
 ]
+
+export const videos = [
+    {
+        id: 1,
+        video: '/tates cookies.mp4',
+        text: ' 1432 Glenn St Place',
+        sqft: '1,474 SQFT',
+        bed : '3 BEDS',
+        bath: '3 BATH',
+        info: 'This is the character-filled Cambrian Park home you have been waiting for! 1432 Glenn. offers its owners a modern and open floor plan with abundant natural light. The heart of the home is an open kitchen featuring beautiful wooden counters, stainless appliances, and waterfall island where your friends and family will surely gather. Two guest bedrooms and a spacious master suite with giant walk-in closet and luxury en suite bathroom.'
+    },
+    {
+        id: 2,
+        video: '/pexels-kindel-media-7578546 (2160p).mp4',
+        text: ' 1432 Glenn St Place'
+    },
+    {
+        id: 3,
+        video: '/pexels-kindel-media-7578550 (2160p).mp4',
+        text: ' 1432 Glenn St Place'
+    },
+    {
+        id: 4,
+        video: '/pexels-kindel-media-7578541 (2160p).mp4',
+        text: ' 1432 Glenn St Place'
+    },
+   
+]

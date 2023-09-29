@@ -1,7 +1,8 @@
-import Nav from '@/app/Components/nav'
+
 import Link from 'next/link'
 import React from 'react'
 import ContactForm from '../../Components/Contactform'
+import Nav from '@/app/Components/nav'
 
 
 const Page = () => {
@@ -15,6 +16,10 @@ const Page = () => {
         <section className=" rounded-xl flex flex-col justify-center items-center border h-full  border-[#efe7d271]">
             <h2 className=" flex uppercase text-2xl lg:text-4xl py-3">send a message</h2>
             <ContactForm/>
+            <div className="flex">
+             <Link href={'tel:17073154173'} ><h2 className=" flex  items-center text-sm lg:text-base font-light h-20 pr-6 uppercase  ">Phone-  +7073154173</h2></Link>
+             <Link href={'mailto:blairhb7@yahoo.com'} ><h2 className="  flex  items-center uppercase text-sm lg:text-base font-light h-20">Email-  FilmDUO@gmail.com</h2></Link>
+            </div>
         </section>
     </main>
    </>

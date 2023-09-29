@@ -83,7 +83,7 @@ const ContactForm = () => {
       <div className="flex py-6 justify-center ">
         <div className=' flex flex-col w-full'>
             <label className='flex justify-center text-white uppercase py-2 text-xl font-headline' htmlFor="message">Message</label>
-            <textarea className='w-full h-40 lg:h-60 my-3 p-3 bg-[#141414] border  border-[#efe7d271] rounded-xl'
+            <textarea className='w-full h-40 lg:h-52 my-3 p-3 bg-[#141414] border  border-[#efe7d271] rounded-xl'
              placeholder='Message'
             id="message"
             name='message'
