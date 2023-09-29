@@ -41,6 +41,7 @@ const RealEstate = () => {
                   <section key={id}  className=" flex flex-col xl:flex-row  gap-3 rounded-xl mx-6 lg:h-[550px] ">
                         <video src={videos.video}   controls className=' lg:w-[770px] w-full rounded-xl LandingVid object-cover '/> 
                         <div className=" flex flex-col px-3 justify-center  border h-full  border-[#efe7d271] w-full rounded-xl">
+                          <h1 className=" text-6xl">CINEMATIC VIDEO TOURS</h1>
                          <h1 className="flex pt-6 uppercase py-4 text-4xl "> {videos.text}</h1>
                          <div className="flex py-2 gap-4">
                           <h4 className="">{videos.bed}</h4>
