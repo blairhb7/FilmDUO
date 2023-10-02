@@ -1,3 +1,4 @@
+'use client'
 import Nav from '@/app/Components/nav'
 import Link from 'next/link'
 import React from 'react'
@@ -14,8 +15,8 @@ const Page = () => {
             </Link>
         </section>
         <section className=" flex justify-center items-center h-full overflow-hidden">
-            <Link dir="ltr" href={'/'} className=' h-full p-3 flex justify-center items-center opacity-40 hover:opacity-100 duration-500 rounded-s-lg'>
-                <video src={'/popchips.mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-s-lg scale-110  "></video>
+            <Link dir="ltr" href={'/Page-Sections/FeaturedWorkPage/Advertisement'} className=' h-full p-3 flex justify-center items-center opacity-40 hover:opacity-100 duration-500 rounded-s-lg'>
+                <video src={'/rise coffee final V.mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-s-lg scale-110  "></video>
                 <h1 className=" text-white hover:-translate-y-3 duration-500 lg:text-6xl uppercase font-bold flex absolute">advertisement</h1>
             </Link>
         </section>
