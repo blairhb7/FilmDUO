@@ -18,7 +18,7 @@ const Page = () => {
         </section>
         <section className=" grid grid-cols-1 gap-2 overflow-hidden">
             <div className="  rounded-xl flex">
-            <Link href={'/'} className=' '>
+            <Link href={'/Page-Sections/FeaturedWorkPage/RealEstate'} className=' '>
               <video src={'/pexels-kindel-media-7578541 (2160p) (1).mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl opacity-60 hover:opacity-100 duration-300"></video>
             </Link>
               <div className=" bg-[#141414] flex absolute justify-end items-center w-32 h-10  rounded-br-xl ">
@@ -27,7 +27,7 @@ const Page = () => {
               </div>
             </div>
           <section className=" rounded-xl flex ">
-          <Link href={'/'}>
+          <Link href={'/Page-Sections/FeaturedWorkPage/Advertisement'}>
             <video src={'/tates cookies.mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl opacity-60 hover:opacity-100 duration-300"></video>
           </Link>
             <div className=" bg-[#141414] flex absolute justify-end items-center w-34 h-10  rounded-br-xl ">
