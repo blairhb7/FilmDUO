@@ -35,7 +35,7 @@ const nav = () => {
                     <div className="bar"></div>
                 </label>
                 <nav id='nav' className=' menu'>
-                    <ul className=' z-50 list flex flex-col gap-2 text-sm md:text-6xl  items-center font-extrabold text-white h-screen uppercase'>
+                    <ul className=' z-50 list flex flex-col gap-2 text-3xl md:text-6xl  items-center font-extrabold text-white h-screen uppercase'>
                     <li className=' hover:-translate-x-3 duration-500'><Link className='Link hover:underline underline-offset-8  duration-500 ' href={'/'}>Home</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Page-Sections/FeaturedWorkPage'}>Featured Project</Link></li>
                     <li className='hover:-translate-x-3 duration-500'><Link className='Link  hover:underline underline-offset-8 hover:translate-x-3' href={'/Page-Sections/AboutPage'}>About</Link></li>

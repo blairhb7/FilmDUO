@@ -41,8 +41,8 @@ const Page = () => {
                                 <h1 className="flex text-2xl lg:text-4xl py-1 font-bold uppercase">Price</h1>
                                 <h2 className=" flex text-2xl w-full font-light">{data.price}</h2>
                                 <div className="flex py-10 gap-2">
-                                    <Link href={''}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
-                                    <Link href={''}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500 ">demo</button></Link>
+                                    <Link href={'/Page-Sections/ContactPage'}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
+                                    <Link href={'/Page-Sections/FeaturedWorkPage/RealEstate'}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500 ">demo</button></Link>
                                 </div>
                                 </div>
                             </section>
@@ -76,8 +76,8 @@ const Page = () => {
                                 <h1 className="flex text-2xl lg:text-4xl py-1 font-bold uppercase">Price</h1>
                                 <h2 className=" flex text-2xl w-full font-light">{data.price}</h2>
                                 <div className="flex py-10 gap-2">
-                                    <Link href={''}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
-                                    <Link href={''}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">demo</button></Link>
+                                    <Link href={'/Page-Sections/ContactPage'}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
+                                    <Link href={'/Page-Sections/FeaturedWorkPage/RealEstate'}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">demo</button></Link>
                                 </div>
                                 </div>
                             </section>
@@ -110,8 +110,8 @@ const Page = () => {
                                 <h1 className="flex text-2xl lg:text-4xl py-1 font-bold uppercase">Price</h1>
                                 <h2 className=" flex text-xl w-full font-medium">{data.price}</h2>
                                 <div className="flex py-10 gap-2">
-                                    <Link href={''}><button className=" uppercase w-32 bg-white text-black p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
-                                    <Link href={''}><button className=" uppercase w-32 bg-white text-black p-2 rounded-xl hover:-translate-y-3 duration-500">demo</button></Link>
+                                    <Link href={'/Page-Sections/ContactPage'}><button className=" uppercase w-32 bg-white text-black p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
+                                    <Link href={'/Page-Sections/FeaturedWorkPage/Advertisement'}><button className=" uppercase w-32 bg-white text-black p-2 rounded-xl hover:-translate-y-3 duration-500">demo</button></Link>
                                 </div>
                                 </div>
                             </section>
