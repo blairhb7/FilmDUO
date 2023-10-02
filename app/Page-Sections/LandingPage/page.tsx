@@ -38,7 +38,7 @@ const Page = () => {
           </section>
           <section className=" rounded-xl flex  ">
           <Link href={'/Page-Sections/ContactPage'}>
-            <img src={'/phone.jpg'}  className="LandingVid bg-cover  rounded-xl opacity-60 hover:opacity-100 duration-300"></img>
+            <img src={'/GitHub Banner.png'}  className="LandingVid bg-cover  rounded-xl opacity-60 hover:opacity-100 duration-300"></img>
           </Link>
             <div className=" bg-[#141414] flex absolute justify-end items-center w-32 h-10  rounded-br-xl ">
               <h2 className="  font-light flex text-sm uppercase px-1">Contact Us</h2>
