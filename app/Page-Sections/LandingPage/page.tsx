@@ -8,9 +8,9 @@ const Page = () => {
     <Nav/>
     <main className="  lg:h-screen grid grid-cols-1 lg:grid-cols-4 w-screen gap-3 p-6   bg-[#141414] overflow-hidden">
         <section className=" lg:col-span-3 flex justify-end items-end rounded-xl h-[700px] lg:h-full overflow-hidden">
-          <h1 className=" absolute  z-40 text-3xl xl:text-5xl p-10  text-white flex  font-extrabold uppercase">YOUR CINEMATIC VISION, OUR CREATIVE EXPERTISE.</h1>
+          <h1 className=" absolute  z-40 text-3xl xl:text-5xl p-10  text-white hidden md:flex  font-extrabold uppercase">YOUR CINEMATIC VISION, OUR CREATIVE EXPERTISE.</h1>
             <video src={'/pexels-kindel-media-7578546 (2160p).mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl scale-110  "></video>
-          <div className=" bg-[#141414] flex absolute justify-center items-center gap-2 w-28 h-10  rounded-tl-lg ">
+          <div className=" bg-[#141414] flex absolute justify-center items-center  w-28 h-10  rounded-tl-lg ">
           <Link href={`https://www.instagram.com/filmduo/`}><img src="/instagram.png" alt="" className=" w-6 h-6" /></Link>
           <Link href={`https://www.youtube.com/@filmduo3423`}><img src="youtube.png" alt="" className=" w-6 h-6" /></Link>
           </div>
