@@ -1,4 +1,4 @@
-'use client'
+
 import Nav from '@/app/Components/nav'
 import Link from 'next/link'
 import React from 'react'

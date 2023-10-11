@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Nav from '../../../Components/nav'
 import { videos } from '../../../Data/pricedata'
+import BookingWidget from '@/app/Components/Widget';
 
 
 
@@ -12,6 +13,7 @@ const RealEstate = () => {
 
   return (
     <>
+    <BookingWidget/>
     <Nav/>
     <main className=" flex flex-col gap-1 bg-[#141414]">
       

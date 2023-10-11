@@ -3,17 +3,20 @@ import Nav from '@/app/Components/nav'
 import { PREMIERPACKAGE, LUXURYPACKAGE, ProductPackage } from '@/app/Data/pricedata'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import { NextScript } from 'next/document'
+import BookingWidget from '@/app/Components/Widget';
 
 const Page = () => {
-
     const [PremierPackage, setPremierPackage] = useState<any>(PREMIERPACKAGE)
     const [LuxuryPackage, setLuxuryPackage] = useState<any>(LUXURYPACKAGE)
     const [AdvertisementPackage, setAdvertisementPackage] = useState<any>(ProductPackage)
 
 
+
   return (
     <>
     <Nav/>
+    <BookingWidget />
     <main className=" lg:grid h-full grid-cols-1 lg:grid-cols-3 p-2 gap-3 bg-[#141414] ">
         <section className="p-3 h-64 lg:h-screen flex justify-start items-end col-span-3 bg-[url('/videoshoot.jpg')] bg-cover rounded-xl">
             <h1 className=" flex text-2xl lg:text-8xl text-white font-semibold uppercase">Featured Packages</h1>
@@ -43,6 +46,7 @@ const Page = () => {
                                 <div className="flex py-10 gap-2">
                                     <Link href={'/Page-Sections/ContactPage'}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500">book</button></Link>
                                     <Link href={'/Page-Sections/FeaturedWorkPage/RealEstate'}><button className=" uppercase w-32 bg-black text-white p-2 rounded-xl hover:-translate-y-3 duration-500 ">demo</button></Link>
+
                                 </div>
                                 </div>
                             </section>
@@ -124,9 +128,14 @@ const Page = () => {
         <section className=" col-span-3 h-[650px]  rounded-xl overflow-hidden ">
             <video src={'/popchips.mp4'} autoPlay loop muted playsInline className="LandingVid bg-cover rounded-xl scale-110   "></video>
         </section>
+        
     </main>
     </>
   )
 }
 
 export default Page
+
+function SimplybookWidget(arg0: { widget_type: string; url: string; theme: string; theme_settings: { timeline_hide_unavailable: string; hide_past_days: string; timeline_show_end_time: string; timeline_modern_display: string; sb_base_color: string; display_item_mode: string; body_bg_color: string; dark_font_color: string; light_font_color: string; btn_color_1: string; sb_company_label_color: string; hide_img_mode: string; sb_busy: string; sb_available: string }; timeline: string; datepicker: string; is_rtl: boolean; app_config: { clear_session: number; allow_switch_to_ada: number; predefined: never[] } }) {
+    throw new Error('Function not implemented.')
+}
